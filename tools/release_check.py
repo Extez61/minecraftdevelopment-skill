@@ -55,7 +55,7 @@ def scan(root: Path, verify_manifest: bool=False) -> dict:
         market=json.loads(files['.claude-plugin/marketplace.json'])
         if plugin['name']!='minecraft-development' or plugin['author']['name']!='extez061':
             errors.append('Plugin identity mismatch')
-        if market['name']!='extez061-skills' or market['owner']['name']!='extez061':
+        if market['name']!='minecraftdevelopment-skill' or market['owner']['name']!='extez061':
             errors.append('Marketplace identity mismatch')
         if len(market['plugins'])!=1 or market['plugins'][0]['name']!=plugin['name'] or market['plugins'][0]['source']!='./':
             errors.append('Marketplace source/name mismatch')

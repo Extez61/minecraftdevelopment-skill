@@ -11,7 +11,7 @@ class PluginPackagingTests(unittest.TestCase):
   self.assertFalse(set(p)&{'hooks','mcpServers','agents','settings'})
  def test_marketplace_root_and_name(self):
   m=json.loads((ROOT/'.claude-plugin/marketplace.json').read_text())
-  self.assertEqual(m['name'],'extez061-skills')
+  self.assertEqual(m['name'],'minecraftdevelopment-skill')
   self.assertEqual(m['plugins'][0]['source'],'./')
   self.assertEqual(m['plugins'][0]['name'],'minecraft-development')
   self.assertEqual(len(list((ROOT/'skills').glob('*/SKILL.md'))),6)

@@ -28,8 +28,8 @@
   "files": [
     {
       "path": ".claude-plugin/marketplace.json",
-      "bytes": 277,
-      "sha256": "4306e24856458bc0a2ce77c4e42a65bcb6d09695fa517e4f201cf3658a27e167"
+      "bytes": 288,
+      "sha256": "245af0869664a8f4fa60b3ed59ff17227df6d80783371689724d40952c76106c"
     },
     {
       "path": ".claude-plugin/plugin.json",
@@ -68,8 +68,8 @@
     },
     {
       "path": "INSTALL.md",
-      "bytes": 2722,
-      "sha256": "53b2c041cbeb423d938854d484fbc6f91febf830b2a43628b7638a0a85c1a4c8"
+      "bytes": 2733,
+      "sha256": "715501042ade5a0413823d852f4227657402cd72aff02e7602becaefe648e6fd"
     },
     {
       "path": "LICENSE",
@@ -83,8 +83,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6065,
-      "sha256": "8fb8b511e56d861eeee2e5a117e7900c967fbbd45fd2f48f10da6eeec398ee0f"
+      "bytes": 6087,
+      "sha256": "407bdd4c363c161e55a01c24ed72ac7de218a360f4eccce687244cdd2616c741"
     },
     {
       "path": "RESEARCH.md",
@@ -498,8 +498,8 @@
     },
     {
       "path": "tests/test_git_installation.py",
-      "bytes": 1216,
-      "sha256": "7069fa4ec8a7d0c01ae4bf9f1d8d2934eeb2eba785b0a5100a64f81bfcfd0607"
+      "bytes": 1227,
+      "sha256": "0a01d9de345c60238444bbe27d6dc4f45cbcebda647e1a7971fd661034409580"
     },
     {
       "path": "tests/test_guidance.py",
@@ -523,8 +523,8 @@
     },
     {
       "path": "tests/test_plugin_packaging.py",
-      "bytes": 1144,
-      "sha256": "5e1c3201d1701d4aa4b3db3ce0b126cd7cd49bd27b6938482f7cc05155297199"
+      "bytes": 1155,
+      "sha256": "e0a7ec2f47b4232154343fd1cbdd1694de628bb5267137cb7aa0fcdc67705fa5"
     },
     {
       "path": "tests/test_release_check.py",
@@ -548,8 +548,8 @@
     },
     {
       "path": "tools/release_check.py",
-      "bytes": 5180,
-      "sha256": "a24d75d5121100438d2ec010872e47417663097afbb77843c9a8d7ccf579775d"
+      "bytes": 5191,
+      "sha256": "ff607605430815b4bf39f775819809d00e68258b464a0874ec78327c1f3d2232"
     },
     {
       "path": "tools/update_manifest.py",

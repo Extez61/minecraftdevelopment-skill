@@ -10,7 +10,7 @@ Use the user's already-authorized Git connection to clone the repository, or ins
 
 ## Select one installation path
 
-- **Claude Code plugin:** register this repository/local root as a marketplace, install minecraft-development@extez061-skills and confirm requested scope. Use normal client prompts. Do not also make direct skill copies unless deliberately requested.
+- **Claude Code plugin:** register this repository/local root as a marketplace, install minecraft-development@minecraftdevelopment-skill and confirm requested scope. Use normal client prompts. Do not also make direct skill copies unless deliberately requested.
 - **Direct folders / other clients:** use the existing authorized project and documented skill root, then copy all six sibling folders with normal file tools. For Claude the project root is .claude/skills; for OpenCode .opencode/skills. Ask if the project/scope is unclear; do not guess global scope.
 
 Folders: minecraft-development, minecraft-fabric, minecraft-paper, minecraft-bukkit, minecraft-neoforge, minecraft-server-operations.

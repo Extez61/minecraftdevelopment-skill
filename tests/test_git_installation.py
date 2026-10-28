@@ -14,7 +14,7 @@ class GitInstallationTests(unittest.TestCase):
    self.assertNotIn('--backup-existing',s)
  def test_native_plugin_and_copy_paths(self):
   s=(R/'README.md').read_text()
-  for text in ('git clone https://github.com/Extez61/minecraftdevelopment-skill.git','claude plugin marketplace add .','/plugin install minecraft-development@extez061-skills','.opencode/skills/','all six directories'):
+  for text in ('git clone https://github.com/Extez61/minecraftdevelopment-skill.git','claude plugin marketplace add .','/plugin install minecraft-development@minecraftdevelopment-skill','.opencode/skills/','all six directories'):
    self.assertIn(text,s)
  def test_optional_analysis_retained(self):
   for name in ('inspect_project.py','inspect_mods.py'):

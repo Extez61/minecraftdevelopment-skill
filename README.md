@@ -14,14 +14,14 @@ No Python is required to install or use the skills. Git obtains the repository; 
 git clone https://github.com/Extez61/minecraftdevelopment-skill.git
 cd minecraftdevelopment-skill
 claude plugin marketplace add .
-claude plugin install minecraft-development@extez061-skills
+claude plugin install minecraft-development@minecraftdevelopment-skill
 ```
 
 Or inside Claude Code, once the repository files are on GitHub and Git access is configured:
 
 ```text
 /plugin marketplace add Extez61/minecraftdevelopment-skill
-/plugin install minecraft-development@extez061-skills
+/plugin install minecraft-development@minecraftdevelopment-skill
 ```
 
 Confirm the scope/installation in the plugin UI if prompted, then reload/restart the client if needed. Private access and enterprise marketplace policies still apply. Use the repository, not a raw README URL. Package files must be present in GitHub before remote installation works.
