@@ -1,0 +1,13 @@
+{
+  "name": "extez061-skills",
+  "owner": {
+    "name": "extez061"
+  },
+  "plugins": [
+    {
+      "name": "minecraft-development",
+      "source": "./",
+      "description": "Six Minecraft development and server-operations skills with on-demand reference guides."
+    }
+  ]
+}

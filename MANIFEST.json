@@ -1,0 +1,582 @@
+{
+  "package": "minecraft-development-complete",
+  "revision": "initial-release-readme-slogan",
+  "research_date": "2026-10-28",
+  "scope": "Minecraft Java 1.21.1 through 26.2; Java and Kotlin; guidance rather than universal binary compatibility",
+  "skills": [
+    "minecraft-bukkit",
+    "minecraft-development",
+    "minecraft-fabric",
+    "minecraft-neoforge",
+    "minecraft-paper",
+    "minecraft-server-operations"
+  ],
+  "native_client_adapters": [
+    "Claude Code",
+    "OpenCode",
+    "Cursor",
+    "GitHub Copilot",
+    "Codex",
+    "Gemini CLI"
+  ],
+  "manual_adapters": [
+    "JetBrains AI Assistant",
+    "other file-capable or chat models"
+  ],
+  "local_unit_tests_passed": 73,
+  "cli_applications_actually_installed": false,
+  "files": [
+    {
+      "path": ".claude-plugin/marketplace.json",
+      "bytes": 277,
+      "sha256": "4306e24856458bc0a2ce77c4e42a65bcb6d09695fa517e4f201cf3658a27e167"
+    },
+    {
+      "path": ".claude-plugin/plugin.json",
+      "bytes": 408,
+      "sha256": "5bb638f8de057fe0c6e0d91ee586a9cdf5bb93dfc2b54f02e62e5b365c61ba79"
+    },
+    {
+      "path": ".gitattributes",
+      "bytes": 138,
+      "sha256": "7dfe2b41f2cfa55ca8a1c016bd032c60f0e854dba7ed95f69f8bf270fc1a9ee3"
+    },
+    {
+      "path": ".github/workflows/validate.yml",
+      "bytes": 680,
+      "sha256": "73244c746963c7bafc0bb5d28a32fca040247c728ea26def940e0147a466686e"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 306,
+      "sha256": "d3221f7bcfc04c4f943e8065971f0f9520b4810e151c9727025e3395615a706e"
+    },
+    {
+      "path": "AI-START-HERE.md",
+      "bytes": 791,
+      "sha256": "01ab95d59983fe73755b7e02bbbb0a5170440f4577be572af05be0f34a73376e"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 1355,
+      "sha256": "530496ffcd3cb66818611904b3327b0f11c8bed53f78b4a6ac895a71edad5732"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 1396,
+      "sha256": "716fab189479a9e493c79946d645cd3f72d0747af180eeb500f1939c45ab4462"
+    },
+    {
+      "path": "INSTALL.md",
+      "bytes": 2722,
+      "sha256": "53b2c041cbeb423d938854d484fbc6f91febf830b2a43628b7638a0a85c1a4c8"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1065,
+      "sha256": "5db5b45b20d1f335c9b3faf2e6a165ca2e8ab2379b3e97d0daab4aef2c6522a6"
+    },
+    {
+      "path": "QA.md",
+      "bytes": 2831,
+      "sha256": "d2520b6ef829e00fa465250fc4a5a8bb44ce227b27a428dc56685425654d3742"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5980,
+      "sha256": "415b039abea1a18952e6f4c16f6809ca69a6606cb2d9eb8c7c0087c714022969"
+    },
+    {
+      "path": "RESEARCH.md",
+      "bytes": 6775,
+      "sha256": "4973fbd0d37ec4dc9a1e2205dd8eadc6afc223382fc862bcd4ac6aa5e2adf3cd"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 775,
+      "sha256": "f1ec108d314ec52e1102ed96c1459ced8e29811355cf77c8ab4ba8a0a70f4277"
+    },
+    {
+      "path": "docs/OTHER-TOOLS.md",
+      "bytes": 5978,
+      "sha256": "ad4d92a1bdc61d60a9467f2dea1b84d733aff9393aee2667aa1018b3d58c6c2f"
+    },
+    {
+      "path": "docs/PUBLISHING.md",
+      "bytes": 3612,
+      "sha256": "7356434b587a0508289ac22af9c71796d8bc6955b0d1fd2aa9a495ec38632549"
+    },
+    {
+      "path": "evals/scenarios.md",
+      "bytes": 11035,
+      "sha256": "a3719a2182beab7d99fb276c485435465e2572c1f3d8e6907aab396ada42c85a"
+    },
+    {
+      "path": "examples/README.md",
+      "bytes": 1522,
+      "sha256": "06ef28feeea9bed119ff6b451f077ac2b245298d741edec7f3041d4519c19369"
+    },
+    {
+      "path": "examples/java/SessionGate.java",
+      "bytes": 869,
+      "sha256": "41cabad8af5cab2d82e9bb9c300bc4119096f8b8f228cece1a6cde715e13ecfd"
+    },
+    {
+      "path": "examples/kotlin/SessionGate.kt",
+      "bytes": 686,
+      "sha256": "a7d6c8d87861c057937ee6b83aa179bbb04156ec704e7b636e979d68797e28c8"
+    },
+    {
+      "path": "skills/minecraft-bukkit/SKILL.md",
+      "bytes": 5033,
+      "sha256": "c31aff556278ab2fc732ff425793fabb650d0d839123c64cdb8fc9b735084780"
+    },
+    {
+      "path": "skills/minecraft-bukkit/references/bootstrap-portability.md",
+      "bytes": 3896,
+      "sha256": "3332b828a7393adf9003b952803bc90d61b28dc3fe318f09bd5cc229297f8637"
+    },
+    {
+      "path": "skills/minecraft-bukkit/references/events-ui.md",
+      "bytes": 4009,
+      "sha256": "f8b317626786e1655314e55986dbe9ca4ff2c1a81e02a7762efc036c790942f1"
+    },
+    {
+      "path": "skills/minecraft-bukkit/references/lifecycle-storage.md",
+      "bytes": 4111,
+      "sha256": "5fb58e7985d7683a7f42a670bc61b3bf346a37a787af62e0346573488931f345"
+    },
+    {
+      "path": "skills/minecraft-bukkit/references/validation.md",
+      "bytes": 2542,
+      "sha256": "bf9dab9247e3b46989603278b02e997476b5ef79b784844a0b3fa6aa30b812c2"
+    },
+    {
+      "path": "skills/minecraft-development/AI-INDEX.md",
+      "bytes": 4652,
+      "sha256": "56a40de1101ab352672c0f279d267d4fd1ccea3dd05aeb68200d3ba7f62bb451"
+    },
+    {
+      "path": "skills/minecraft-development/SKILL.md",
+      "bytes": 12430,
+      "sha256": "312ed634aa3561879fee7d5728fb94b8aeaab1a56c5115280b20839c4668388e"
+    },
+    {
+      "path": "skills/minecraft-development/references/anticheat-development.md",
+      "bytes": 8581,
+      "sha256": "760951ee090ff61f54357c11997bae8e02d91d1a35eb4f165d61dfa6fbe8233b"
+    },
+    {
+      "path": "skills/minecraft-development/references/api-catalog.md",
+      "bytes": 9626,
+      "sha256": "ec4c91a4e0ed0f826bcef104412f7c508aa0d21c6b35c18e9fb0047e9873cf0e"
+    },
+    {
+      "path": "skills/minecraft-development/references/architecture-gameplay.md",
+      "bytes": 4581,
+      "sha256": "e81a34d030a4fbf2ab998585f6d42d3dd4c827b63605d228b8571dc9a5a8f450"
+    },
+    {
+      "path": "skills/minecraft-development/references/behavior-preservation.md",
+      "bytes": 4971,
+      "sha256": "827f366b12465c4e20d6718a04bc0657dad5e7b1f32907a837b98559acb4a51c"
+    },
+    {
+      "path": "skills/minecraft-development/references/closed-source-protection.md",
+      "bytes": 12642,
+      "sha256": "e9cdf305e7cf0603bcf2e327908f6d04192bfa04ce3a24cfa85f403f9a25fc88"
+    },
+    {
+      "path": "skills/minecraft-development/references/companion-skills.md",
+      "bytes": 4945,
+      "sha256": "be969fac790d24c697a29e364b9458c2655511741710a08bddfccfa2ebb49731"
+    },
+    {
+      "path": "skills/minecraft-development/references/concurrency-persistence.md",
+      "bytes": 6299,
+      "sha256": "f073e03b0be3d3a1e474f0bbefe899ae728e4e39ec962e09efdc2a5ee0c28671"
+    },
+    {
+      "path": "skills/minecraft-development/references/integrations.md",
+      "bytes": 7819,
+      "sha256": "1c8597eb569f92271171634fff540e6f7c4269158a0ff1ed447564f9c34e83ae"
+    },
+    {
+      "path": "skills/minecraft-development/references/java-kotlin-builds.md",
+      "bytes": 10032,
+      "sha256": "f721fe03250ce07a0ed67f0102031093cdfebf3ccd1fd146a94a2f3c49efb692"
+    },
+    {
+      "path": "skills/minecraft-development/references/migration.md",
+      "bytes": 4508,
+      "sha256": "3415a8299f2b8df7c41364a1a8639cb81045d2cdcb6aff8b91420722ddfe103c"
+    },
+    {
+      "path": "skills/minecraft-development/references/mod-feature-playbooks.md",
+      "bytes": 7383,
+      "sha256": "108e6ce87d19f6c6063f1d9bc33957b29ad1b9b54a2026adb2f5a01289dea860"
+    },
+    {
+      "path": "skills/minecraft-development/references/modlists-compatibility.md",
+      "bytes": 8952,
+      "sha256": "73e2c10cca7e922c982a6f62953642ae4c7d47aeb5e5967764036404d11a21e8"
+    },
+    {
+      "path": "skills/minecraft-development/references/performance.md",
+      "bytes": 6339,
+      "sha256": "79200d995c4d1e96bf6f7443b1ef559dd8acbec751072020b93c9f61fbc869ee"
+    },
+    {
+      "path": "skills/minecraft-development/references/permissions-authorization.md",
+      "bytes": 10210,
+      "sha256": "e2d01849e19cd10f1d36607190158a013d98b15b24bb10f47754da3c08836c9a"
+    },
+    {
+      "path": "skills/minecraft-development/references/sources.md",
+      "bytes": 21402,
+      "sha256": "49333cf0da4929c765ae8929d9eb2f191d14dcd2b0f2834f704c85c775a1f489"
+    },
+    {
+      "path": "skills/minecraft-development/references/testing-release.md",
+      "bytes": 4594,
+      "sha256": "2b70a91fc084cdab502da414ba414f65048afdc87a74e1665edf2a5dd8c0376b"
+    },
+    {
+      "path": "skills/minecraft-development/references/token-efficiency.md",
+      "bytes": 5203,
+      "sha256": "c5537cee4630ca7e41c8f5677aef268caab6fb57fcf6f752b8ce454a54daeb13"
+    },
+    {
+      "path": "skills/minecraft-development/references/tool-adapters.md",
+      "bytes": 2684,
+      "sha256": "806b4810992c780faedd40674c2b640e93bad6feb8602e2182a514f9492f5d1e"
+    },
+    {
+      "path": "skills/minecraft-development/references/trust-boundaries.md",
+      "bytes": 4087,
+      "sha256": "f77aa738088d1bed95a0f63d8a207115b3301cab135ae4298ea1ce2a8c5aa41d"
+    },
+    {
+      "path": "skills/minecraft-development/references/version-policy.md",
+      "bytes": 8415,
+      "sha256": "ae46327428ab94c5338af494d3639f9416c2005bf1f79f7e41029cc1ec35cc3b"
+    },
+    {
+      "path": "skills/minecraft-development/scripts/inspect_mods.py",
+      "bytes": 12156,
+      "sha256": "a3533fcd405160ad49b1c36a1b1b70341d53fa8f44b480de159858692500beb1"
+    },
+    {
+      "path": "skills/minecraft-development/scripts/inspect_project.py",
+      "bytes": 4680,
+      "sha256": "4660985c7c4dcc7947d412ae9163347bec29f3dfffe575f5cec6d9b936f85fb5"
+    },
+    {
+      "path": "skills/minecraft-fabric/SKILL.md",
+      "bytes": 5833,
+      "sha256": "09398e97d7971e1f8bc692d3936bc1ad3af65ce4576c43c5bdfc244f85f62140"
+    },
+    {
+      "path": "skills/minecraft-fabric/references/bootstrap-builds.md",
+      "bytes": 4953,
+      "sha256": "269c0c40359c9283a738824090cfd59971cdcd4238982c46f60fd54c853b4e18"
+    },
+    {
+      "path": "skills/minecraft-fabric/references/content-data.md",
+      "bytes": 6114,
+      "sha256": "eb88cb57d0a8d6201d1612466ab1474d7cbd0df45f2e5651ccb68fe51b161f86"
+    },
+    {
+      "path": "skills/minecraft-fabric/references/networking-sides.md",
+      "bytes": 4660,
+      "sha256": "1779318b57cee1e08a0203edd80345e3c7295819b9b8dc09af6cc31ffe3fd7b2"
+    },
+    {
+      "path": "skills/minecraft-fabric/references/rendering-mixins.md",
+      "bytes": 5019,
+      "sha256": "0f7efb153069558843aa7725f24783f1c223b9397748d783c6c339a2c35fccc9"
+    },
+    {
+      "path": "skills/minecraft-fabric/references/transfer-resource-hooks.md",
+      "bytes": 4050,
+      "sha256": "583b2d93a361027dce13be8fa7777000a0430858188101159aa1d9984ad8e951"
+    },
+    {
+      "path": "skills/minecraft-fabric/references/validation.md",
+      "bytes": 2844,
+      "sha256": "f635405ae10927cb81e31ffd8311f65452ba00ac24a16c9bf9996eb2dba969fd"
+    },
+    {
+      "path": "skills/minecraft-neoforge/SKILL.md",
+      "bytes": 4686,
+      "sha256": "c5ea399ace4db886ff84410b58f4bfdb25df43a3962b5aa4d661441da2269a3c"
+    },
+    {
+      "path": "skills/minecraft-neoforge/references/bootstrap-events.md",
+      "bytes": 4602,
+      "sha256": "6aeb15475118d1658db0d70b254d71ebecf4cc3a2b6b9ed1dea2960902a2d175"
+    },
+    {
+      "path": "skills/minecraft-neoforge/references/config-resource-extensions.md",
+      "bytes": 4399,
+      "sha256": "d0c70bac1b75131127ab00e6fb1d8c191a183e552fde132d0f796c95807391d9"
+    },
+    {
+      "path": "skills/minecraft-neoforge/references/networking-menus.md",
+      "bytes": 4846,
+      "sha256": "ca634f2af4408f64fef9081b63b6dc25ffd888ce874fd39d61e97132f2f264e1"
+    },
+    {
+      "path": "skills/minecraft-neoforge/references/registries-data.md",
+      "bytes": 5862,
+      "sha256": "1864fc6abb01272ab5304e61616f04008babb156a0b5ec80f674255fdab0d112"
+    },
+    {
+      "path": "skills/minecraft-neoforge/references/rendering-validation.md",
+      "bytes": 5269,
+      "sha256": "56334061ac80755a9076388b132c436e3fa4600235efdffc099a38aba39fba95"
+    },
+    {
+      "path": "skills/minecraft-paper/SKILL.md",
+      "bytes": 4822,
+      "sha256": "d021b27716df58a54580bf1bb733278521cb6351a72e3c9d29822af5cac3fe4a"
+    },
+    {
+      "path": "skills/minecraft-paper/references/api-gameplay.md",
+      "bytes": 5228,
+      "sha256": "13a95d399a4e8e476cb7f8f282d59a5d1185c623c9af896684ca1e3a1d6bd6a7"
+    },
+    {
+      "path": "skills/minecraft-paper/references/compatibility-validation.md",
+      "bytes": 4067,
+      "sha256": "9b377d9a73d2ba3cb23a2ff5e835dcec07e41b6b360cd87725ec2aa0f42ef4e3"
+    },
+    {
+      "path": "skills/minecraft-paper/references/extended-public-api.md",
+      "bytes": 3716,
+      "sha256": "b0c5a7e5c1214d66e8a2bc34814ba009bf456d18109346f2c0e4c2f84eca48cb"
+    },
+    {
+      "path": "skills/minecraft-paper/references/lifecycle-builds.md",
+      "bytes": 4985,
+      "sha256": "c1d98805151789495aa9388810b77c3d51d7b33f8e098a378bfec6af3ba887d8"
+    },
+    {
+      "path": "skills/minecraft-paper/references/threading-folia.md",
+      "bytes": 4826,
+      "sha256": "66bad75e5a67fd5f1463054de3df7fdfccf3e274cc115066b0a3317f5a3c9a60"
+    },
+    {
+      "path": "skills/minecraft-server-operations/SKILL.md",
+      "bytes": 5918,
+      "sha256": "4766a3c27fcdac9833dae2312c1a94a6f73de312a8345d24c689a217e2e21a02"
+    },
+    {
+      "path": "skills/minecraft-server-operations/references/backup-recovery.md",
+      "bytes": 4141,
+      "sha256": "3c1dbb6c675d6e0c995310f16d7794d6da56888463dbbdad1a65ebe5b6b7a7f6"
+    },
+    {
+      "path": "skills/minecraft-server-operations/references/command-runbooks.md",
+      "bytes": 3394,
+      "sha256": "1a4f36e09d78a7c1a02358d812a772e3d0c799eeb3f9def8ff6f2e995f117eaa"
+    },
+    {
+      "path": "skills/minecraft-server-operations/references/configuration.md",
+      "bytes": 4895,
+      "sha256": "2c1385de2ddaee846c9b929b07b7310760f76a5e893b17f87c210552bd8322d8"
+    },
+    {
+      "path": "skills/minecraft-server-operations/references/lifecycle.md",
+      "bytes": 4469,
+      "sha256": "af67ec2a0772e7a02fee46ca81aace08574b149dff76881aefd4ebe32831450e"
+    },
+    {
+      "path": "skills/minecraft-server-operations/references/performance.md",
+      "bytes": 5031,
+      "sha256": "41bac557e1404430e30cd7024442984106fbfb6278e71547aacc374a69bd896e"
+    },
+    {
+      "path": "skills/minecraft-server-operations/references/player-management.md",
+      "bytes": 6610,
+      "sha256": "ecf457a221989e990b1c8da02b7a705c0b8d41b15f48a9a433481a16bf4bf129"
+    },
+    {
+      "path": "skills/minecraft-server-operations/references/security-observability.md",
+      "bytes": 4366,
+      "sha256": "df642f5a553b1f00591af1a632629142a85b1ee107be22d3484b841c306e64eb"
+    },
+    {
+      "path": "skills/minecraft-server-operations/references/sources.md",
+      "bytes": 2872,
+      "sha256": "7bcb74ea52485487bdf84f99eca201c2d2a25270bcc142253dbaad995fefdbe0"
+    },
+    {
+      "path": "templates/AGENTS.minecraft.md",
+      "bytes": 2037,
+      "sha256": "34c71df2a2762c74cbdfc8d73d6b999c460120b8433e378de6f3fb061575b130"
+    },
+    {
+      "path": "templates/CLAUDE.minecraft.md",
+      "bytes": 2463,
+      "sha256": "2deeaa9130918733a5b4f0ffb5fef183f2c95aa122f4a357c2511a0d8267139b"
+    },
+    {
+      "path": "templates/behavior-contract.md",
+      "bytes": 1083,
+      "sha256": "c2a7198ac54a494414d21f38bc46ad652546429654e771497877192ce1a2812a"
+    },
+    {
+      "path": "templates/closed-source-proguard.pro",
+      "bytes": 1601,
+      "sha256": "fa0656dc76d442fed21a29fee1b18191f422cfa00186aa3c8705ac9bf06246a9"
+    },
+    {
+      "path": "templates/closed-source-release-checklist.md",
+      "bytes": 919,
+      "sha256": "611cd17b87503ec228b568b0b5332eb25fb1a5a9c0b47044defb9c3df64dbdf2"
+    },
+    {
+      "path": "templates/jetbrains-minecraft-rule.md",
+      "bytes": 1522,
+      "sha256": "c2b34a888157d61edd9a6d44c71c66fcc29c90a057d6631b4df94097db45d774"
+    },
+    {
+      "path": "templates/manual-model-prompt.md",
+      "bytes": 1952,
+      "sha256": "cf3ee6b6d3eb8d8f4487cfd283c5d84b913f6134db4efff980c1e8a71065aa6d"
+    },
+    {
+      "path": "templates/mod-compatibility-report.md",
+      "bytes": 1217,
+      "sha256": "f5045730ec13440405762f0e241fa6bbe14e172ce41bde072374419e916dfdaa"
+    },
+    {
+      "path": "templates/performance-report.md",
+      "bytes": 905,
+      "sha256": "3de60f67172b7007f2e1aa4602ebb914592fdfc428b3ab095e83fd83e7b06df2"
+    },
+    {
+      "path": "templates/permission-contract.md",
+      "bytes": 727,
+      "sha256": "fedb7447ecb54e8befaf87cac9dd7b32d2feb7a2ae42e3b34e6952ab2e39476b"
+    },
+    {
+      "path": "templates/release-checklist.md",
+      "bytes": 1013,
+      "sha256": "4a12f38099bff98be4256c0b657b8932d5f02725825c83181ce5e861504e2350"
+    },
+    {
+      "path": "templates/server-change-plan.md",
+      "bytes": 876,
+      "sha256": "80d1d3ffc0b00347c0052f47b3e6ed1029554cf79602ba16df8e5021e5ee5f1e"
+    },
+    {
+      "path": "templates/server-incident-report.md",
+      "bytes": 696,
+      "sha256": "201a077f13fda27426f3f24c28aedb9a90b92550f21c513c6b3133eb1070d923"
+    },
+    {
+      "path": "tests/SessionGateJavaTest.java",
+      "bytes": 956,
+      "sha256": "4e55b8a6685632121cfc490f18c562a66160b6153e895e639f74a833cd0f9573"
+    },
+    {
+      "path": "tests/SessionGateKotlinTest.kt",
+      "bytes": 654,
+      "sha256": "9f5a1c44afbba076fb507cbd40c384006d7e2a798defe0e2aaf9ef9ecef25fdc"
+    },
+    {
+      "path": "tests/test_closed_source.py",
+      "bytes": 1330,
+      "sha256": "c25ea4b07a7362d1c2d806a83d1da5cdb00bcd3bde07c3f6e03e8ae9506760e2"
+    },
+    {
+      "path": "tests/test_concise_output.py",
+      "bytes": 885,
+      "sha256": "b5ce25ac5243804e1384f1cf8612eda8784ff5aad1d8db5ec4f4723504f5e57e"
+    },
+    {
+      "path": "tests/test_git_installation.py",
+      "bytes": 1216,
+      "sha256": "7069fa4ec8a7d0c01ae4bf9f1d8d2934eeb2eba785b0a5100a64f81bfcfd0607"
+    },
+    {
+      "path": "tests/test_guidance.py",
+      "bytes": 1788,
+      "sha256": "0f945c59211122c0ce0555c485a6d82a3940c7f418328c5742cc6db75c3ec3c4"
+    },
+    {
+      "path": "tests/test_mod_inventory.py",
+      "bytes": 7219,
+      "sha256": "ec05eccbed22a900d1e5b989b61bd21904f5e62f773a94a5ea202755523ebec9"
+    },
+    {
+      "path": "tests/test_navigation.py",
+      "bytes": 815,
+      "sha256": "7f21cecb342bdb6408452e4fc20c1c46278336e40024f14a4a30edf20d85bdec"
+    },
+    {
+      "path": "tests/test_permissions.py",
+      "bytes": 1562,
+      "sha256": "b6a95dcefce2e4fe93d282abe11374d77195b50be6f5c2dfbc4fbffa31d21239"
+    },
+    {
+      "path": "tests/test_plugin_packaging.py",
+      "bytes": 1144,
+      "sha256": "5e1c3201d1701d4aa4b3db3ce0b126cd7cd49bd27b6938482f7cc05155297199"
+    },
+    {
+      "path": "tests/test_release_check.py",
+      "bytes": 2249,
+      "sha256": "25f409cc0903eb06017d1a033acb8f62ab20a5bca6b5b9172d890d73a1215dc6"
+    },
+    {
+      "path": "tests/test_server_operations.py",
+      "bytes": 1991,
+      "sha256": "ecb17423f00d989ba68b9d63f4d8d5117bd77137b3c5b895ffee639267531c7d"
+    },
+    {
+      "path": "tests/test_tools.py",
+      "bytes": 5422,
+      "sha256": "2562970a80cc2e698c1a719ac0a17ae383ac39ac0ac6b81856f36115875750ea"
+    },
+    {
+      "path": "tools/CheckJavaExample.java",
+      "bytes": 1621,
+      "sha256": "8fb4cc75cc3c89ea9cf28b8a6b94a86ce9744c277b976b5f54ad980503bff9c1"
+    },
+    {
+      "path": "tools/release_check.py",
+      "bytes": 5180,
+      "sha256": "a24d75d5121100438d2ec010872e47417663097afbb77843c9a8d7ccf579775d"
+    },
+    {
+      "path": "tools/validate_pack.py",
+      "bytes": 4791,
+      "sha256": "c2ba3aa51c273af2fc2066b17532093cde47ffb3c84d448b39531b6810a9cff8"
+    }
+  ],
+  "public_repository_created": false,
+  "live_hosted_install_tested": false,
+  "author": "extez061",
+  "companion_integrations_live_tested": false,
+  "anticheat_runtime_tested": false,
+  "token_savings_measured": false,
+  "claude_plugin_live_tested": false,
+  "claude_plugin_official_validation_run": false,
+  "repository": "https://github.com/Extez61/minecraftdevelopment-skill",
+  "plugin_version": "1.0.0",
+  "repository_upload_performed": false,
+  "server_operations_runtime_tested": false,
+  "performance_benchmark_performed": false,
+  "permission_runtime_tested": false,
+  "repository_visibility": "private",
+  "github_push_performed": false,
+  "hosted_ci_run": false,
+  "license_selected": true,
+  "python_required_for_installation": false,
+  "python_install_helpers_included": false,
+  "obfuscator_runtime_tested": false,
+  "reverse_engineering_benchmark_performed": false
+}

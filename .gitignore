@@ -1,0 +1,24 @@
+# Local credentials and environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python / IDE / OS output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Generated artifacts and local installer backups
+*.class
+*.zip
+*.log
+.minecraft-skill-backups/
+.minecraft-stage-*/
