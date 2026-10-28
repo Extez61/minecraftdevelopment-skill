@@ -118,3 +118,9 @@ This is an instruction library, not a Minecraft mod/plugin JAR or universal comp
 [Agent installation](INSTALL.md) · [Publishing](docs/PUBLISHING.md) · [Contributing](CONTRIBUTING.md) · [Security](SECURITY.md) · [Research](RESEARCH.md)
 
 Sources: [Claude setup](https://code.claude.com/docs/en/setup), [marketplaces](https://code.claude.com/docs/en/plugin-marketplaces), [VS Code](https://code.claude.com/docs/en/vs-code), [OpenCode V1](https://opencode.ai/docs).
+
+## License
+
+Licensed under the [MIT License](LICENSE).
+
+Copyright (c) 2026 extez061.
