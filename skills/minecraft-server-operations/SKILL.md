@@ -5,8 +5,6 @@ description: "Administer, configure, optimize, troubleshoot and maintain Minecra
 
 # Minecraft Server Operations
 
-**Skill creator: extez061**
-
 Read the [core contract](../minecraft-development/SKILL.md) once. Use the [AI lookup map](../minecraft-development/AI-INDEX.md) to avoid unrelated reading. This is an operations guide, not permission to execute console commands, restart production, punish players, change access/security or accept an EULA. Observe the user's exact authorized scope; propose consequential live actions for approval when not already explicit.
 
 ## Establish the target

@@ -10,8 +10,6 @@ description: "Develop, debug, optimize, review, refactor, or migrate Minecraft J
 [Lean context contract](#lean-context-contract) · [1. Establish facts before proposing code](#1-establish-facts-before-proposing-code) · [2. Choose the actual platform](#2-choose-the-actual-platform) · [3. Read references progressively](#3-read-references-progressively) · [4. Preserve existing behavior by default](#4-preserve-existing-behavior-by-default) · [5. Prefer the smallest correct solution](#5-prefer-the-smallest-correct-solution) · [6. Verify APIs instead of inventing them](#6-verify-apis-instead-of-inventing-them) · [7. Work in a tight loop](#7-work-in-a-tight-loop) · [8. Keep user-facing output concise](#8-keep-user-facing-output-concise)
 
 
-**Skill creator: extez061**
-
 **Need a file quickly?** Use the compact [AI lookup map](AI-INDEX.md); do not preload the library. Then follow this core contract and the selected platform router.
 
 Apply this shared contract with the selected platform skill. Respect the user's requested scope and the repository's own instructions. This suite does not authorize deployment, destructive commands, network uploads, security bypasses, or additional agents.

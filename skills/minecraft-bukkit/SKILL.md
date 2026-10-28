@@ -5,8 +5,6 @@ description: "Create, debug, optimize, review and port Bukkit/Spigot-compatible 
 
 # Bukkit / Spigot Plugin Development
 
-**Skill creator: extez061**
-
 For shared topic lookup, use the [AI file map](../minecraft-development/AI-INDEX.md); do not load unrelated platform guides.
 
 Read `../minecraft-development/SKILL.md`. Treat Bukkit as an API family and Spigot as a concrete runtime/API distribution; do not invent a maintained official “Bukkit server download” for every game version. Identify the real runtime the user will deploy.

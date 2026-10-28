@@ -83,8 +83,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5980,
-      "sha256": "415b039abea1a18952e6f4c16f6809ca69a6606cb2d9eb8c7c0087c714022969"
+      "bytes": 6065,
+      "sha256": "8fb8b511e56d861eeee2e5a117e7900c967fbbd45fd2f48f10da6eeec398ee0f"
     },
     {
       "path": "RESEARCH.md",
@@ -128,8 +128,8 @@
     },
     {
       "path": "skills/minecraft-bukkit/SKILL.md",
-      "bytes": 5033,
-      "sha256": "c31aff556278ab2fc732ff425793fabb650d0d839123c64cdb8fc9b735084780"
+      "bytes": 5004,
+      "sha256": "3e3fa2b2126c0f3478130014e80b6eb6030a1b7f852c0673fcd51ffe8777b31e"
     },
     {
       "path": "skills/minecraft-bukkit/references/bootstrap-portability.md",
@@ -158,8 +158,8 @@
     },
     {
       "path": "skills/minecraft-development/SKILL.md",
-      "bytes": 12430,
-      "sha256": "312ed634aa3561879fee7d5728fb94b8aeaab1a56c5115280b20839c4668388e"
+      "bytes": 12401,
+      "sha256": "636ec5aeab6cc8f018edf8c2c6b726ac5c07da88f8c90279199ea1cc3e9beebb"
     },
     {
       "path": "skills/minecraft-development/references/anticheat-development.md",
@@ -273,8 +273,8 @@
     },
     {
       "path": "skills/minecraft-fabric/SKILL.md",
-      "bytes": 5833,
-      "sha256": "09398e97d7971e1f8bc692d3936bc1ad3af65ce4576c43c5bdfc244f85f62140"
+      "bytes": 5804,
+      "sha256": "b40b5d3cb8d0b606a2d5338186e87ded13653e5b50c97884b3c8f39a9e372c9f"
     },
     {
       "path": "skills/minecraft-fabric/references/bootstrap-builds.md",
@@ -308,8 +308,8 @@
     },
     {
       "path": "skills/minecraft-neoforge/SKILL.md",
-      "bytes": 4686,
-      "sha256": "c5ea399ace4db886ff84410b58f4bfdb25df43a3962b5aa4d661441da2269a3c"
+      "bytes": 4657,
+      "sha256": "63ce2de270111a5c860522ef14a61f394c9f4a9a52e6b3a2f1690afb462a686a"
     },
     {
       "path": "skills/minecraft-neoforge/references/bootstrap-events.md",
@@ -338,8 +338,8 @@
     },
     {
       "path": "skills/minecraft-paper/SKILL.md",
-      "bytes": 4822,
-      "sha256": "d021b27716df58a54580bf1bb733278521cb6351a72e3c9d29822af5cac3fe4a"
+      "bytes": 4793,
+      "sha256": "245c2bd27b82b1a9c557e6d48e7b1d5cc077a1c3898a7036d43e8afb744eacb4"
     },
     {
       "path": "skills/minecraft-paper/references/api-gameplay.md",
@@ -368,8 +368,8 @@
     },
     {
       "path": "skills/minecraft-server-operations/SKILL.md",
-      "bytes": 5918,
-      "sha256": "4766a3c27fcdac9833dae2312c1a94a6f73de312a8345d24c689a217e2e21a02"
+      "bytes": 5889,
+      "sha256": "eb5619ffff9fa11e5b9ce0d7801cc626821a690df47977a861cfc43eff53b141"
     },
     {
       "path": "skills/minecraft-server-operations/references/backup-recovery.md",
@@ -533,8 +533,8 @@
     },
     {
       "path": "tests/test_server_operations.py",
-      "bytes": 1991,
-      "sha256": "ecb17423f00d989ba68b9d63f4d8d5117bd77137b3c5b895ffee639267531c7d"
+      "bytes": 2035,
+      "sha256": "9ebcae394361909502103caac86ca06b29a8e5e2d6e3d239b39ae7e1f593db12"
     },
     {
       "path": "tests/test_tools.py",
@@ -550,6 +550,11 @@
       "path": "tools/release_check.py",
       "bytes": 5180,
       "sha256": "a24d75d5121100438d2ec010872e47417663097afbb77843c9a8d7ccf579775d"
+    },
+    {
+      "path": "tools/update_manifest.py",
+      "bytes": 1395,
+      "sha256": "c1dde1fffb42d18b8a6337a1c5c769a0aa2bf4e0d5b38bee3914a35d20569828"
     },
     {
       "path": "tools/validate_pack.py",

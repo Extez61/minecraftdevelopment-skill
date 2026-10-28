@@ -5,8 +5,6 @@ description: "Build, debug, review, optimize or port Fabric mods in Java or Kotl
 
 # Fabric Mod Development
 
-**Skill creator: extez061**
-
 For shared topic lookup, use the [AI file map](../minecraft-development/AI-INDEX.md); do not load unrelated platform guides.
 
 Read `../minecraft-development/SKILL.md`, then load only the shared references and Fabric references relevant to the task. Do not assume a Fabric mod is client-only; establish physical and logical sides explicitly.

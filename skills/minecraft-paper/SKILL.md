@@ -5,8 +5,6 @@ description: "Develop, debug, optimize, review or migrate Paper plugins in Java 
 
 # Paper Plugin Development
 
-**Skill creator: extez061**
-
 For shared topic lookup, use the [AI file map](../minecraft-development/AI-INDEX.md); do not load unrelated platform guides.
 
 Read `../minecraft-development/SKILL.md`. Determine whether the target is Paper only, Bukkit/Spigot compatible, or explicitly Folia compatible. Do not assume one implies the others. Classic `plugin.yml` is valid for many Paper plugins; Paper-specific plugin loading is a separate choice.

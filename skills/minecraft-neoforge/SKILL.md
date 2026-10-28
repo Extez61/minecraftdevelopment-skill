@@ -5,8 +5,6 @@ description: "Build, debug, review, optimize or migrate NeoForge mods in Java or
 
 # NeoForge Mod Development
 
-**Skill creator: extez061**
-
 For shared topic lookup, use the [AI file map](../minecraft-development/AI-INDEX.md); do not load unrelated platform guides.
 
 Read `../minecraft-development/SKILL.md`. NeoForge is its own loader/API target; old Forge snippets are not authoritative for a NeoForge project. Confirm exact versions, including patch-level loader API changes within a Minecraft line.

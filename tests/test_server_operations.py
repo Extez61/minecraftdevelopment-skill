@@ -7,7 +7,8 @@ class OperationsTests(unittest.TestCase):
  def test_skill_registered(self):
   self.assertTrue(OPS.is_dir())
   self.assertEqual(len(list((ROOT/'skills').glob('*/SKILL.md'))),6)
-  self.assertIn('extez061',(OPS/'SKILL.md').read_text())
+  for skill in (ROOT/'skills').glob('*/SKILL.md'):
+   self.assertNotIn('extez061',skill.read_text())
  def test_reference_set(self):
   self.assertEqual({p.stem for p in (OPS/'references').glob('*.md')},{'configuration','performance','player-management','lifecycle','backup-recovery','security-observability','sources','command-runbooks'})
  def test_config_preservation(self):
