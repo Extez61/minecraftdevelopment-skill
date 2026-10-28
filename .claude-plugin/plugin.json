@@ -1,0 +1,10 @@
+{
+  "name": "minecraft-development",
+  "version": "1.0.0",
+  "description": "Minecraft Java/Kotlin development and safe server operations: Fabric, Paper, Bukkit, NeoForge, configuration, profiling, players and backups.",
+  "author": {
+    "name": "extez061"
+  },
+  "homepage": "https://github.com/Extez61/minecraftdevelopment-skill",
+  "repository": "https://github.com/Extez61/minecraftdevelopment-skill"
+}
